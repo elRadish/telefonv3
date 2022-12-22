@@ -1,3 +1,6 @@
+enum RadioMessage {
+    message1 = 49434
+}
 input.onButtonPressed(Button.A, function () {
     if (eigeneNummer < 9) {
         eigeneNummer += 1
