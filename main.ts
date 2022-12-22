@@ -42,6 +42,7 @@ let counter = 0
 let eigeneNummer = 0
 radio.setTransmitPower(7)
 radio.setGroup(1)
+radio.setFrequencyBand(42)
 eigeneNummer = 0
 pins.setPull(DigitalPin.P0, PinPullMode.PullUp)
 pins.setPull(DigitalPin.P1, PinPullMode.PullUp)
